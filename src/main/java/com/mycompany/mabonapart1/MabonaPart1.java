@@ -50,7 +50,7 @@ public class MabonaPart1 {
         }
 
 
-
+         //ask user to enter username
         System.out.print("Enter your Username to log in: ");
         String enteredUsername = scanner.nextLine();
 
