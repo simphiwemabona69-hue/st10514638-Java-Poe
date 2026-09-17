@@ -24,7 +24,7 @@ public class MabonaPart1 {
         System.out.print("Enter your Last Name: ");
         user.setLastName(scanner.nextLine());
 
-        // Keep asking for details until registration requirements are met
+        // Keep asking user for details until registration requirements are met
         boolean registrationSuccessful = false;
         
         while (!registrationSuccessful) {
@@ -53,7 +53,8 @@ public class MabonaPart1 {
          //ask user to enter username
         System.out.print("Enter your Username to log in: ");
         String enteredUsername = scanner.nextLine();
-
+        
+        //ask user to enter password
         System.out.print("Enter your Password to log in: ");
         String enteredPassword = scanner.nextLine();
 
