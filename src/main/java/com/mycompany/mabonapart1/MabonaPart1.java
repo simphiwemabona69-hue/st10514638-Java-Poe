@@ -27,6 +27,8 @@ public class MabonaPart1 {
         // Keep asking user for details until registration requirements are met
         boolean registrationSuccessful = false;
         
+        
+        //Loop to ask user to enter details if conditions are not met
         while (!registrationSuccessful) {
             System.out.print("Enter Username: ");
             user.setUsername(scanner.nextLine());
