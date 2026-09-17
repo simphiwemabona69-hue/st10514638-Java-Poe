@@ -20,6 +20,7 @@ public class MabonaPart1 {
         System.out.print("Enter your First Name: ");
         user.setFirstName(scanner.nextLine());
 
+        //Ask user to enter last name
         System.out.print("Enter your Last Name: ");
         user.setLastName(scanner.nextLine());
 
