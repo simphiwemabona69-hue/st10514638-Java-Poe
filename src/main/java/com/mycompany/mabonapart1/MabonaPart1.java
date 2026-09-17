@@ -15,7 +15,8 @@ public class MabonaPart1 {
     public static void main(String[] args) {
       Scanner scanner = new Scanner(System.in);
         Login user = new Login();
-
+           
+        //Ask the user to enter name
         System.out.print("Enter your First Name: ");
         user.setFirstName(scanner.nextLine());
 
